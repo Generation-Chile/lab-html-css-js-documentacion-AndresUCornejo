@@ -65,11 +65,52 @@ body {
   }
   footer {
     text-align: center;
-    background-color: #333;
+    background-color: #131199;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-  
+
+
+  /*
+
+Este archivo contiene estilos CSS que definen la apariencia de los elementos en la página HTML. Aquí tienes una explicación de las partes visibles:
+
+#### Explicación de los Estilos
+
+- **`button`**: Estilo para los botones.
+  - `padding`: Espaciado interno de 10px arriba y abajo, 20px a los lados.
+  - `font-size`: Tamaño de fuente de 1em.
+  - `background-color`: Color de fondo azul (#007bff).
+  - `color`: Color del texto blanco (#fff).
+  - `border`: Sin borde.
+  - `cursor`: Cambia el cursor a una mano al pasar sobre el botón.
+
+- **`section#form`**: Estilo para la sección con id "form".
+  - `background-color`: Color de fondo con transparencia (#6abae2b4).
+
+- **`form`**: Estilo para el formulario.
+  - `margin`: Centra el formulario horizontalmente.
+  - `max-width`: Ancho máximo de 350px.
+  - `text-align`: Alineación del texto a la izquierda.
+  - `margin-bottom`: Margen inferior de 100px.
+
+- **`form label`**: Estilo para las etiquetas del formulario.
+  - `display`: Se muestra como bloque.
+  - `margin-bottom`: Margen inferior de 5px.
+
+- **`form input, form textarea`**: Estilo para los campos de entrada y el área de texto del formulario.
+  - `width`: Ancho del 100%.
+  - `padding`: Espaciado interno de 10px.
+  - `margin-bottom`: Margen inferior de 10px.
+  - `border`: Borde de 1px sólido con color gris claro (#ccc).
+  - `border-radius`: Bordes redondeados de 5px.
+
+- **`form button`**: Estilo específico para el botón dentro del formulario.
+  - `width`: Ancho del 50%.
+  - `margin-left`: Margen izquierdo del 25% para centrar el botón.
+
+Por favor, proporciona el contenido de `accion.js` para poder explicarlo también.
+  */

@@ -1,0 +1,88 @@
+/*Primero partimos indicando el tipo de letra que tendrá la pagina*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px ;/*margen del body*/
+    padding: 0;
+    background-color: #96c6dd;
+}
+/* Ahora se empieza a dar forma al header*/
+
+header {
+    text-align: center;/*centra el texto*/
+    padding: 50px 0; /*padding es el espacio que hay entre el borde y el contenido*/
+    background-image: url('https://i.ibb.co/1ryT82F/javascript.png');
+    background-size: cover;/*la imagen se ajusta al tamaño del contenedor*/
+    background-position: top;/*la imagen se posiciona en la parte superior del contenedor*/
+    color: rgb(143, 45, 45);/*color del texto*/
+    height: 40vh;/*altura del header*/
+    overflow: hidden;/*oculta el contenido que sobresale del contenedor*/    
+}
+
+h1 {
+    text-align: center;/*centra el texto*/
+}
+
+/*Añadimos estilos al menu*/
+#encabezado h1 {
+    font-size: 24px;/*tamaño de la fuente*/
+    margin: 0;/*margen del texto*/
+    margin-top: 10px;/*margen superior del texto*/
+    text-shadow: 1px 2px 2px rgb(19, 76, 122);/*tamaño de la fuente*/
+}
+
+section {
+    padding: 50px 0;/*padding del contenido*/
+    text-align: center;/*centra el texto*/
+}
+
+button {
+    padding: 10px 20px;/*padding del boton*/
+    font-size: 1em;/*tamaño de la fuente*/
+    background-color: rgb(2, 15, 22);/*color de fondo del boton*/
+    color: white;/*color del texto*/
+    border: none;/*borde del boton*/
+    cursor: pointer;/*cursor del boton*/
+}
+
+section#formulario {
+    background-color: rgb(111, 159, 204);
+}
+
+#formulario h2 {
+    font-size: 24px;/*tamaño de la fuente*/
+    margin: 0;/*margen del texto*/
+    margin-top: 20px;/*margen superior del texto*/
+    
+}
+
+form {
+    padding: 50 px 0;
+    margin: 0 auto;/*margen del formulario*/
+    max-width: 450px;/*ancho maximo del formulario*/
+    text-align: left;/*alineacion del texto*/
+    margin-bottom: 100px;/*margen inferior del formulario*/
+}
+
+form input, form textarea {
+    width: 100%;/*ancho del input*/
+    padding: 10px;/*padding del input*/
+    margin-bottom: 10px;/*margen inferior del input*/
+    border-bottom: 1px solid #ccc;/*color del borde del input*/
+}
+
+form button {
+    margin-top: 10px;/*margen superior del boton*/
+    margin-left: 40%;/*margen izquierdo del boton*/
+    
+}
+
+footer {
+    text-align: center;/*centra el texto*/
+    background-color: rgb(38, 165, 204);
+    color: rgb(0, 0, 0);/*color del texto*/
+    padding: 10 px 0;/*padding del footer*/
+    position: fixed;/*posicion fija*/
+    bottom: 0;/*posicion en la parte inferior*/
+    width: 100%;/*ancho del footer*/
+}
